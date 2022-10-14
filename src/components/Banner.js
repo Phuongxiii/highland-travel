@@ -11,7 +11,7 @@ const Banner = () => {
 				position='relative'
 				w='full'
 				backgroundPosition='bottom'
-				backgroundImage='./Banner.jpg'
+				backgroundImage='./Banner1.jpg'
 				backgroundSize='cover'>
 				<Heading
 					position='absolute'
