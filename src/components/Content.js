@@ -33,7 +33,7 @@ const Content = () => {
 					<HStack w='container.lg'>
 						<Image
 							alt='Ruộng bậc thang Tú Lệ - Điểm du lịch Mù Căng Chải hấp dẫn.'
-							src='http://media.dulich24.com.vn/diemden/mu-cang-chai-7309/8ad61322-866e-4a59-baab-911d6eaf2aa0-5.jpg'
+							src='./8ad61322-866e-4a59-baab-911d6eaf2aa0-5.jpg'
 						/>
 
 						<Box p={8}>
