@@ -15,7 +15,7 @@ const Search = () => (
 			<FormControl borderRadius='6px' border='2px'>
 				<InputGroup>
 					<InputLeftElement>
-						<SearchIcon boxSize={6} />
+						<SearchIcon color='white' boxSize={6} />
 					</InputLeftElement>
 					<Input type='text' />
 				</InputGroup>
