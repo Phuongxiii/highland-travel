@@ -5,7 +5,7 @@ import { Box, Center, Divider, HStack, Text, VStack } from "@chakra-ui/react";
 
 export default function Footer() {
 	return (
-		<Center w='full'>
+		<Center w='full' color='black' backgroundColor='blue.400' p={98}>
 			<VStack w='container.lg'>
 				<Text>Văn Phòng chính: 79 Giải Phóng, Hai Bà Trưng</Text>
 				<HStack>
@@ -15,7 +15,11 @@ export default function Footer() {
 						<Text>SDT: 0987 187 781</Text>
 					</VStack>
 					<Box w='40px' />
-					<Divider height='120px' orientation='vertical' />
+					<Divider
+						height='120px'
+						orientation='vertical'
+						fontSize={12}
+					/>
 					<Box w='60px' />
 					<VStack w='180px'>
 						<Center>

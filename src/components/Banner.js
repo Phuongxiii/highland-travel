@@ -1,7 +1,7 @@
 /** @format */
 
 import { Box, Center, Heading } from "@chakra-ui/react";
-import Search from "./Search";
+import FindComponent from "./FindComponent";
 
 const Banner = () => {
 	return (
@@ -22,7 +22,8 @@ const Banner = () => {
 					Highland Travel
 					<Box h='40vh'></Box>
 				</Heading>
-				<Search />
+				{/* <Search /> */}
+				<FindComponent />
 			</Center>
 		</Box>
 	);

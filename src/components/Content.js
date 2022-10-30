@@ -8,26 +8,17 @@ import {
 	HStack,
 	VStack,
 	Image,
+	Heading,
 } from "@chakra-ui/react";
 
 const Content = () => {
 	return (
-		<Box>
+		<Box color='black'>
 			<Box h='48px' />
 			<Center>
 				<VStack>
 					<HStack w='80%'>
-						<Box
-							w='full'
-							display='flex'
-							height={16}
-							justifyContent='space-between'>
-							<Text>Tour</Text>
-							<Divider height='80%' orientation='vertical' />
-							<Text>Giá </Text>
-							<Divider height='80%' orientation='vertical' />
-							<Text>Điều khoản</Text>
-						</Box>
+						<Heading margin='-150px'>Địa điểm yêu thích</Heading>
 					</HStack>
 					<Box h='64px' />
 					<HStack w='container.lg'>
