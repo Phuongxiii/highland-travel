@@ -1,6 +1,6 @@
 /** @format */
 
-import { Box, Center, Heading } from "@chakra-ui/react";
+import { Box, Center, Heading, HStack, Image, Text } from "@chakra-ui/react";
 import FindComponent from "./FindComponent";
 
 const Banner = () => {
@@ -19,7 +19,14 @@ const Banner = () => {
 					as='h1'
 					fontStyle={64}
 					color='#FFECEF'>
-					Highland Travel
+					<HStack>
+						<Image
+							w={48}
+							borderRadius='3xl'
+							src='./313347539_794196045253520_5041460814508530242_n.jpg'
+						/>
+						<Text> Highland Travel</Text>
+					</HStack>
 					<Box h='40vh'></Box>
 				</Heading>
 				{/* <Search /> */}
