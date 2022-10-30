@@ -26,12 +26,24 @@ export default function FindComponent() {
 			<ItemSearch
 				text='Ngày đi '
 				icon={<BsFillCalendarFill color='black' fontSize={28} />}
-				children={<Input inputMode='text' textColor='black' />}
+				children={
+					<Input
+						inputMode='text'
+						placeholder='30 - 10 - 2022'
+						textColor='black'
+					/>
+				}
 			/>
 			<ItemSearch
 				text='Số ngày '
 				icon={<BsFillCalendarFill color='black' fontSize={28} />}
-				children={<Input inputMode='text' textColor='black' />}
+				children={
+					<Input
+						inputMode='text'
+						placeholder='Tất cả'
+						textColor='black'
+					/>
+				}
 			/>
 			<Button colorScheme='black' p={4} color='black' w={28}>
 				<AiOutlineArrowRight />
