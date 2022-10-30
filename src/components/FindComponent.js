@@ -12,20 +12,20 @@ export default function FindComponent() {
 		<Center backgroundColor='white' borderRadius={23}>
 			<ItemSearch
 				text='Địa điểm'
-				icon={<HiLocationMarker color='black' fontSize={28} />}
+				icon={<HiLocationMarker color='black' fontSize={24} />}
 				children={<Input inputMode='text' textColor='black' />}
 			/>
 			<BsArrowLeftRight color='black' />
 			<ItemSearch
 				text='Điểm đến '
-				icon={<HiLocationMarker color='black' fontSize={28} />}
+				icon={<HiLocationMarker color='black' fontSize={24} />}
 				children={
 					<Input placeholder='Hãy chọn địa điểm ' textColor='black' />
 				}
 			/>
 			<ItemSearch
 				text='Ngày đi '
-				icon={<BsFillCalendarFill color='black' fontSize={28} />}
+				icon={<BsFillCalendarFill color='black' fontSize={24} />}
 				children={
 					<Input
 						inputMode='text'
@@ -36,7 +36,7 @@ export default function FindComponent() {
 			/>
 			<ItemSearch
 				text='Số ngày '
-				icon={<BsFillCalendarFill color='black' fontSize={28} />}
+				icon={<BsFillCalendarFill color='black' fontSize={24} />}
 				children={
 					<Input
 						inputMode='text'
@@ -45,7 +45,7 @@ export default function FindComponent() {
 					/>
 				}
 			/>
-			<Button colorScheme='black' p={4} color='black' w={28}>
+			<Button colorScheme='black' p={4} color='black' w={24}>
 				<AiOutlineArrowRight />
 			</Button>
 		</Center>

@@ -15,7 +15,7 @@ export default function ItemSearch({ text, icon, children }) {
 					{text}
 				</Text>
 				<HStack>
-					{icon}
+					<Box p={1}>{icon}</Box>
 					{children}
 				</HStack>
 			</Box>

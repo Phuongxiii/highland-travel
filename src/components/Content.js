@@ -91,9 +91,6 @@ const Content = () => {
 			<Center>
 				<Box w='container.lg'>
 					<Box h='64px' />
-					<Text fontSize='16px'>Giá tương ứng</Text>
-					<Text fontSize='16px'>Điều khoản</Text>
-					<Box h='64px' />
 				</Box>
 			</Center>
 		</Box>
